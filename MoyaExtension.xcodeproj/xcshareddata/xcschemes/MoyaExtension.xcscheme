@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1110"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9CA52FEB23D1A77B00DE486F"
+               BlueprintIdentifier = "9C946CB02541527E002FA5D2"
                BuildableName = "MoyaExtension.framework"
                BlueprintName = "MoyaExtension"
                ReferencedContainer = "container:MoyaExtension.xcodeproj">
@@ -29,6 +29,8 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -40,6 +42,17 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9C946CB02541527E002FA5D2"
+            BuildableName = "MoyaExtension.framework"
+            BlueprintName = "MoyaExtension"
+            ReferencedContainer = "container:MoyaExtension.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -50,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9CA52FEB23D1A77B00DE486F"
+            BlueprintIdentifier = "9C946CB02541527E002FA5D2"
             BuildableName = "MoyaExtension.framework"
             BlueprintName = "MoyaExtension"
             ReferencedContainer = "container:MoyaExtension.xcodeproj">
