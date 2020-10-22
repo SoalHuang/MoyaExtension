@@ -2,11 +2,11 @@
 //  MoyaExtension.h
 //  MoyaExtension
 //
-//  Created by SoalHunag on 2020/1/17.
-//  Copyright © 2020 SoalHunag. All rights reserved.
+//  Created by SoalHuang on 2020/10/22.
+//  Copyright © 2020 SoalHuang. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 //! Project version number for MoyaExtension.
 FOUNDATION_EXPORT double MoyaExtensionVersionNumber;
