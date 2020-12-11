@@ -13,7 +13,10 @@ public extension SDExtension where T == Data {
     
     func map<T: Mappable>(mapType: T.Type) -> T? {
         guard
-            let json = try? JSONSerialization.jsonObject(with: base, options: .allowFragments),
+            let json = try? JSONSerialization.jsonObject(with: base,
+                                                         options: [.mutableContainers,
+                                                                   .mutableLeaves,
+                                                                   .fragmentsAllowed]),
             let mapped = Mapper<T>().map(JSONObject: json)
             else {
             return nil
