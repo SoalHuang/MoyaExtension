@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		561E90F02637DAD1004AD4BB /* SDFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDFoundation.framework; path = Carthage/Build/iOS/SDFoundation.framework; sourceTree = "<group>"; };
 		9C946CB12541527E002FA5D2 /* MoyaExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoyaExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C946CB42541527E002FA5D2 /* MoyaExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoyaExtension.h; sourceTree = "<group>"; };
 		9C946CB52541527E002FA5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 		9C946CCE25415410002FA5D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				561E90F02637DAD1004AD4BB /* SDFoundation.framework */,
 				9C946CD025415410002FA5D2 /* Alamofire.framework */,
 				9C946CCF25415410002FA5D2 /* Moya.framework */,
 				9C946CD225415410002FA5D2 /* ObjectMapper.framework */,
@@ -133,7 +135,7 @@
 		9C946CA82541527E002FA5D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = SoalHuang;
 				TargetAttributes = {
 					9C946CB02541527E002FA5D2 = {
@@ -216,6 +218,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -280,6 +283,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
